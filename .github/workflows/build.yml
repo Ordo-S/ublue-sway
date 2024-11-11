@@ -23,7 +23,7 @@ jobs:
         recipe:
           # !! Add your recipes here 
           # - ublue-cosmic.yml
-          - ublue-hyprland.yml
+          # - ublue-hyprland.yml
           - ublue-sway.yml
     steps:
        # the build is fully handled by the reusable github action
