@@ -36,7 +36,7 @@ modules:
       # Misc GUI
       - gnome-shell-extension-pop-shell
       - firefox
-      - steam
+      # - steam
 
       # Window Manager
       - bemenu
