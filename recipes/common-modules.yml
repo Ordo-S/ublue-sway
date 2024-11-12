@@ -26,6 +26,7 @@ modules:
       - zoxide
 
       # Misc
+      - alacritty
       - kitty
       - twingate-latest
       - wezterm
@@ -34,6 +35,8 @@ modules:
 
       # Misc GUI
       - gnome-shell-extension-pop-shell
+      - firefox
+      - steam
 
       # Window Manager
       - bemenu
@@ -43,7 +46,6 @@ modules:
       - mako
       - rofi
       - fuzzel
-      - alacritty
       - slurp
       - waybar
       - wlsunset
@@ -56,7 +58,7 @@ modules:
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
       install:
-        - org.mozilla.firefox
+        # - org.mozilla.firefox
         - re.sonny.Junction
         - com.google.Chrome
         - com.discordapp.Discord
